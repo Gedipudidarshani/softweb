@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign Up</title>
+    <style>
+        body {
+            background:url(back.png);
+            background-size: cover;
+            color: rgb(128, 0, 0);
+            font-family: Arial, sans-serif;
+        }
+
+        .form {
+            margin: 0 auto;
+            width: 300px;
+            padding: 20px;
+        }
+
+        label {
+            color: rgb(255, 68, 0);
+        }
+
+        .purpose {
+            color: rgb(255, 0, 123);
+        }
+
+        .buttons {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #34db66;
+            color: #ffffff;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .buttons:hover {
+            color: rgb(0, 183, 255);
+            background-color: #34acdb;
+        }
+        .styled form {
+            margin margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .styled [type="button"] {
+            padding: 10px 20px; /* button size */
+            background-color: #db34d0; /* initial background color */
+            color: #ffffff; /*initial text color */
+            border: none;
+            transition: background-color 0.3s, color 0.3s; /*smooth transition */
+        }
+        .styled [type="button"]:hover {
+            background-color:rgb(128, 0, 0); /*background color on hover */
+            color:aliceblue; /*text color on hover */
+        }
+        .styled [type="submit"] {
+            border-radius: 10px;
+            padding: 5px 10px; /* button size */
+            background-color: #34db95; /* initial background color */
+            color: #ffffff; /*initial text color */
+            border: none;
+            transition: background-color 0.3s, color 0.3s; /*smooth transition */
+        }
+        .styled [type="submit"]:hover {
+            background-color:purple; /*background color on hover */
+            color:#ffffff; /*text color on hover */
+        }
+        .styled [type="text"] {
+            margin-left: 500px;
+            transition: background-color 0.3s; 
+            background-color:bisque;
+        }
+        .styled input[type="text"]:focus {
+    /* Change background color when input is focused */
+    background-color:rgb(127, 196, 224); /* Adjust the color as needed */
+}
+.text{
+    transition: background-color 0.3s, color 0.3s;
+
+}
+.text :focus{
+    background-color:rgb(64, 0, 255);  
+}
+.full{
+    background:url(BGI.png);
+    padding: 10px;
+    border:4px double white;
+}
+    </style>
+</head>
+<body>
+    <form class="styled ">
+        <div class=>
+            <a href="mainpage.html">
+                <input type="button" value="HOME">
+            </a>
+            <a href="products.html">
+                <input type="button" value="PRODUCTS">
+            </a>
+            <a href="about.html">
+                <input type="button" value="ABOUT US">
+            </a>
+            <a href="sign.html">
+                <input type="button" value="SIGN IN">
+            </a>
+            <a href="contact.html">
+                <input type="button" value="CONTACT">
+            </a>  
+            <input type="text">
+            <input type="submit"value="SEARCH">  
+        </div>
+    </form>
+    <div class="form">
+        <p align="center">CLUB YOUR HANDS WITH ORIGIN</p>
+        <p align="center">DON'T HAVE AN ACCOUNT ?</p>
+        <div class="full">
+        <div class="text">
+           
+        <label>Username</label>
+        <input type="text" value="username"><br><br>
+        <label>Email</label>
+        <input type="email" value="email"><br><br>
+        </div>
+        <label>DOB</label>
+        <input type="date"><br><br>
+        <label>Gender</label><br>
+        <div class="purpose">
+            <input type="radio" name="gender">Male<br>
+            <input type="radio" name="gender">Female<br><br>
+        </div>
+        <label>Purpose</label><br>
+        <div class="purpose">
+            <input type="radio" name="purpose">Study<br>
+            <input type="radio" name="purpose">Work<br>
+            <input type="radio" name="purpose">Colaborations<br><br>
+        </div>
+        <label>Click the checkbox to prove you are human</label>
+        <input type="checkbox"><br><br>
+        
+            <input type="submit" value="CREATE ACCOUNT" class="buttons">
+            <input type="submit" value="DOWNLOAD SOFTWARE"class="buttons">
+        
+    </div>
+</div>
+</body>
+<footer style="background-color:rgb(0, 0, 0); border: none;">
+    <P style="color:#ffffff ;"align="center">Designed and Devoloped by Gedipudi Darshani 2023 </P>
+</footer>
+</html>
+
